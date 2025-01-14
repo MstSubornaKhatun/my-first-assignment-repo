@@ -5,6 +5,17 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+ 
+}
+
+
+header, main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bg {
+    background-color: #F5F5F5;
+   
 }
 
 /* nav style */
@@ -13,7 +24,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
     
     
 }
@@ -73,19 +83,14 @@ nav ul a {
     gap: 60;
     padding: 76px 95px 76px 95px;
     background-color: #C6E4D6;
-    margin-left: 100px;
-    margin-right: 100px;
     border-radius: 22px;
     padding: 76px 95px 76px 95px;
     
-   
-    
-
 }
 
 .banner-title {
     color: #0E0E0E80;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     gap: 15;
     padding: 0px;
@@ -102,7 +107,297 @@ nav ul a {
 }
 
 .banner-profile-pic {
+    width: 450px;
+    height: 312px;
+}
+
+
+/* Pillars of "Bangladesh 2.0" */
+
+.title {
+    gap: 30;
+    padding: 0px;
+    color: #0E0E0E;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #0E0E0ECC;
+    text-align: left;
+}
+
+.card-description {
+    color: #0E0E0E;
+    font-size: 14px;
+    font-weight: 380;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-section {
+    margin-top: 76px;
+    margin-bottom: 76px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+       
+}
+
+.card {
+    width: 286px;
+    height: 245px;
+    padding: 24px;
+    margin: auto;
+    gap: 20;
+    padding: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 14px;
+    background: rgb(255, 255, 255)
+
+}
+
+/* The Vision of Future */
+
+.vision-section {
+    width: 1280px;
+    height: 770px;
+
+}
+
+.visions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22;
+    
+}
+
+.vision-one {
+    width: 370px;
+    height: 290px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #5490F533;
+    padding: 30px;
+}
+
+.vision-two {
+    width: 389px;
+    height: 290px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #C6E4D6;
+    padding: 30px;
+}
+
+.vision-three {
+    width: 389px;
+    height: 290px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #F7EBCF;
+    padding: 30px;
+}
+
+.vision-title {
+    color: #0E0E0ECC;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+
+}
+
+.vision-description {
+    color: #0E0E0EB3;
+    font-size: 15px;
+    font-weight: 400;
+
+}
 
 
 
+.btn-vision-one {
+    width: 115px;
+    height: 38px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: rgb(84, 144, 245);
+    border: none;
+}
+
+.btn-vision-two {
+    width: 115px;
+    height: 38px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    border: none;
+}
+
+.btn-vision-three {
+    width: 115px;
+    height: 38px;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    border: none;
+}
+
+.chief {
+    height: 200px;
+    background-color: #FFFFFF;
+    background-image: url(../assets/quote-bg.png);
+    background-position: 2% 20%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 45px 22px 45px 22px; 
+    margin-top: 30px;
+
+}
+
+.chief-description {
+    color: #0E0E0E;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    gap: 4;
+}
+
+.chief-title {
+    color: #0E0E0ECC;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0;
+    gap: 4;
+
+}
+
+.chief-desc {
+    color: #0E0E0E99;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+    gap: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Select Your Opinion */
+
+.opinion-section {
+    /* Frame 2087325622 */
+position: static;
+width: 1280px;
+height: 481px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 80px 0px;
+}
+
+.tables {
+    /* Frame 2087325502 */
+position: static;
+width: 1280px;
+height: 409px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+/* Recent News */
+
+.news-section {
+/* Frame 2087325511 */
+position: static;
+width: 1280px;
+height: 1254px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+margin-left:100px ;
+margin-right: 100px;
+
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
 }
