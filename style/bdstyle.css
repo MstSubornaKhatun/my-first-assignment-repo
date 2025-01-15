@@ -9,6 +9,34 @@
 }
 
 
+/* shared css style */
+
+.btn-primary {
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    border: none;
+    gap: 45;
+    cursor: pointer;
+
+}
+
+.btn-primary:hover {
+    background-color: #044735;
+}
+
+.description-primary {
+    color: #0E0E0EB3;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px;
+}
+
+
 header, main {
     margin-left: 100px;
     margin-right: 100px;
@@ -58,25 +86,21 @@ nav ul a {
     padding: 14px 28px;
     border-radius: 8px;
     font-size: 17px;
+    cursor: pointer;
 }
 
-.btn-primary {
-    background-color: #006A50;
+.btn:hover {
     color: #FFFFFF;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 21px;
-    border-radius: 8px;
-    padding: 16px 32px 16px 32px;
-    border: none;
-    gap: 45;
-
+    background-color: #028363;
 }
+
+
 
 /* banner style */
 
 .banner {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -84,8 +108,7 @@ nav ul a {
     padding: 76px 95px 76px 95px;
     background-color: #C6E4D6;
     border-radius: 22px;
-    padding: 76px 95px 76px 95px;
-    
+    padding: 76px 95px 76px 95px; 
 }
 
 .banner-title {
@@ -103,7 +126,6 @@ nav ul a {
     font-weight: 700;
     line-height: 63px;
     gap: 15;
-
 }
 
 .banner-profile-pic {
@@ -149,7 +171,7 @@ nav ul a {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
        
 }
@@ -186,30 +208,33 @@ nav ul a {
 }
 
 .vision-one {
-    width: 370px;
-    height: 290px;
+    width: 389px;
+    height: 320px;
     box-sizing: border-box;
     border-radius: 16px;
     background: #5490F533;
     padding: 30px;
+    margin: 24px;
 }
 
 .vision-two {
     width: 389px;
-    height: 290px;
+    height: 320px;
     box-sizing: border-box;
     border-radius: 16px;
     background: #C6E4D6;
     padding: 30px;
+    margin: 24px;
 }
 
 .vision-three {
     width: 389px;
-    height: 290px;
+    height: 320px;
     box-sizing: border-box;
     border-radius: 16px;
     background: #F7EBCF;
     padding: 30px;
+    margin: 24px 0px;
 }
 
 .vision-title {
@@ -237,6 +262,12 @@ nav ul a {
     color: #FFFFFF;
     background-color: rgb(84, 144, 245);
     border: none;
+    cursor: pointer;
+}
+
+
+.btn-vision-one:hover {
+    background-color:  rgb(44, 75, 129);
 }
 
 .btn-vision-two {
@@ -247,6 +278,12 @@ nav ul a {
     color: #FFFFFF;
     background-color: #09A15C;
     border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-vision-two:hover {
+    background-color: #076f40;
 }
 
 .btn-vision-three {
@@ -257,6 +294,12 @@ nav ul a {
     color: #FFFFFF;
     background-color: #FFC239;
     border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-vision-three:hover {
+    background-color: #9b7724;
 }
 
 .chief {
@@ -298,90 +341,268 @@ nav ul a {
 
 
 
-/* Select Your Opinion */
+/* Your Opinion Matters */
 
 .opinion-section {
-    /* Frame 2087325622 */
-position: static;
-width: 1280px;
-height: 481px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 24;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 80px 0px;
+    width: 1216px;
+    height: 456px;
+    margin-top: 76px;
+    margin-bottom: 76px;
 }
 
+
 .tables {
-
-    border: 1px solid black;
-    /* Frame 2087325502 */
-position: static;
-width: 1280px;
-height: 409px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 24;
-padding: 32px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 24px 0px;
+width: 100%;
+height: 290px;
 border-radius: 16px;
-
+gap: 24;
+padding: 30px;
 background: rgb(255, 255, 255);
 }
 
-
-
-
-
-
-
-/* Recent News */
-
-.news-section {
-/* Frame 2087325511 */
-position: static;
-width: 1280px;
-height: 1254px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 24;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 32px 0px;
-margin-left:100px ;
-margin-right: 100px;
+table {
+    width: 100%;
+    height: 280px;
+}
+table, th, td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    padding-left: 20px;
+    
+    
 
 }
 
-.news {
+
+
+table, td {
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+th {
+    border-color: #C6E4D6;
+    text-align: left;
+    width: 80%;
+    background-color: #C6E4D6;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.options {
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    cursor: pointer;
+    
+}
+
+.options:hover {
+    background-color: #7b9a8c;
+}
+
+
+/* Recent News */
+.satellites {
     display: flex;
     justify-content: space-between;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+}
+
+.satellite {
+    gap: 30;
+    gap: 30;
+    padding: 45px;
+}
+
+.satellite-img {
+    border-radius: 24px;
+    width: 387px;
+    height: 290px;
+    margin: 45px;
+}
+
+
+.satellite-title {
+    color: #0E0E0ECC;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.al-img {
+    width: 127px;
+    height: 38px;
+}
+
+
+span {
+    width: 115px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0E0E0EB3;
+    margin: 5px;
+}
+
+.al-description {
+    color: #0E0E0EB3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Donate Today */
+
+.text-align {
+    text-align: center;
+}
+
+.donate {
+    display: flex;
+    justify-content: space-around;
+    gap: 22;
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.dnt-btn {
+    border-radius: 16px;
+    border: 1px solid #FFFFFF;
+    padding: 38px;
+    width: 238px;
+    height: 121px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dnt-btn:hover {
+    background-color: #9ebeaf;
+}
+
+
+.dtn-btn-click {
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    background: rgb(198, 228, 214);
+    width: 238px;
+    height: 121px;
+    padding: 38px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dtn-btn-click:hover {
+    background-color: rgb(86, 116, 102);
+}
+
+
+textarea {
+    width: 980px;
+    height: 60px;
+    display: block; 
+    margin: 30px auto; 
+    text-align: center; 
+    padding: 19px 38px 19px 38px;
+    font-size: 16px; 
+    line-height: 2;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    color: #FFFFFF;
+    
+}
+
+
+.btn-center {
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Subscribe Newsletter */
+
+.email-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    overflow: hidden; 
+    width: 590px;
+    height: 52px;
+}
+
+.email-subscribe input[type="email"] {
+    flex: 1;
+    border: none; 
+    padding: 14px; 
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+}
+
+.email-subscribe input::placeholder {
+    color: #0E0E0E4D;
+}
+
+.email-subscribe button {
+    background-color: #006A50; 
+    color: #FFFFFF; 
+    width: 150px;
+    height: 52px;
+    border: none;
+    padding: 15px 28px; 
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.email-subscribe button:hover {
+    background-color: #0d4c38; /* হোভার রঙ */
+}
+
+
+.eml-section {
+    background-color: #C6E4D6;
+    padding: 70px 80px;
+    border-radius: 22px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 30;
+
+}
+.eml-btn {
+    margin: 30px;
+
+    
+}
+
+/* footer */
+footer {
+    margin-top: 76px;
+}
+
+.div hr {
+    margin: 30px 5px;
 }
