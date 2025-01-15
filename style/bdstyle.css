@@ -515,16 +515,16 @@ textarea {
     width: 980px;
     height: 60px;
     display: block; 
-    margin: 30px auto; 
+    margin: 40px auto; 
     text-align: center; 
     padding: 19px 38px 19px 38px;
     font-size: 16px; 
-    line-height: 2;
+    line-height: 1.5;
     box-sizing: border-box;
     border: none;
     resize: none;
     overflow: hidden;
-    color: #FFFFFF;
+    
     
 }
 
