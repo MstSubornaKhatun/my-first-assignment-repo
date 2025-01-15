@@ -600,9 +600,22 @@ textarea {
 
 /* footer */
 footer {
+    background-color: #FFFFFF;
     margin-top: 76px;
+    width: 1520px;
+    height: 220px;
 }
 
-.div hr {
-    margin: 30px 5px;
+hr {
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 1022px;
+}
+
+.ft-div {
+    padding: 40px 152px 47px 152px;
+}
+.ft-heading {
+    color: #0E0E0E;
+    font-size: 30px;
+    font-weight: 700;
 }
